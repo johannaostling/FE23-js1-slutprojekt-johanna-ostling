@@ -14,7 +14,7 @@ function displayPopTop(list) {
     const releaseDateEl = document.createElement("p");
     const boxDiv = document.createElement("div");
 
-    const posterPath = `https:image.tmdb.org/t/p/w400/` + poster;
+    const posterPath = `https://image.tmdb.org/t/p/w400/` + poster;
 
     titelEl.innerText = titel;
     posterImg.src = posterPath;
