@@ -44,7 +44,7 @@ function displaysearchedmovie(list) {
       const aboutEl = document.createElement("p");
       const boxDiv = document.createElement("div");
 
-      const posterPath = `https:image.tmdb.org/t/p/w400/` + poster;
+      const posterPath = `https://image.tmdb.org/t/p/w400/` + poster;
 
       titelEl.innerText = titel;
       posterImg.src = posterPath;
@@ -75,7 +75,7 @@ function displaysearchedperson(list) {
       const aboutEl = document.createElement("p");
       const boxDiv = document.createElement("div");
 
-      const posterPath = `https:image.tmdb.org/t/p/w400/` + poster;
+      const posterPath = `https://image.tmdb.org/t/p/w400/` + poster;
 
       titelEl.innerText = titel;
       posterImg.src = posterPath;
